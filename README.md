@@ -86,7 +86,7 @@ The Jenkinsfile defines pipeline stages and steps:
 - `pytest`: Runs unit tests using the `pytest` framework.
 - `gunicorn`: Installs and starts the Gunicorn WSGI server to run the Flask application.
 
-[Jenkinsfile Link](https://github.com/sayanalokesh/Jenkins/blob/main/Jenkinsfile)
+[Jenkinsfile Link](https://github.com/patilajayv/jenkins/Jenkinsfile)
 
 #### Poll SCM
 
