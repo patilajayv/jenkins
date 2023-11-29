@@ -48,7 +48,7 @@ jobs:
           # Add the remote repository URL
           git remote add origin_with_token https://sayanalokesh:${{ secrets.ACCESS_TOKEN }}@github.com/sayanalokesh/GithubActionsNew.git
           git clone https://github.com/patilajayv/jenkins.git
-          cd GithubActionsNew
+          cd jenkins
           sudo ls
           sudo git checkout staging
           sudo echo "checked out to staging branch"
@@ -69,7 +69,7 @@ jobs:
           sudo git push origin_with_token production
           echo "pushed to production"
           sudo git tag -a v1.0
-          sudo git push origin_with_token v1.0
+          # sudo git push origin_with_token v1.0
           # sudo python3 /home/ubuntu/Jenkins/app.py
           
 
