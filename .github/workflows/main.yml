@@ -66,9 +66,9 @@ jobs:
           echo "pull has been successful"
           sudo git merge staging
           echo "merge successful"
-          sudo git push origin_with_token production
+          #sudo git push origin_with_token production
           echo "pushed to production"
-          sudo git tag -a v1.0
+          # sudo git tag -a v1.0
           # sudo git push origin_with_token v1.0
           # sudo python3 /home/ubuntu/Jenkins/app.py
           
